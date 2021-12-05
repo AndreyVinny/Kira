@@ -409,7 +409,7 @@ h4 {
 
 section {
   text-align: center;
-  padding: 55px 0px;
+  padding: 100px 0px 10px 0px;
 }
 
 .main_cont {
@@ -1417,7 +1417,7 @@ table td:last-child {
   }
 }
 footer {
-  padding: 30px 0px;
+  padding: 100px 0px;
 }
 
 .footer_cont {

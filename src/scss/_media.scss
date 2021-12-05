@@ -1,0 +1,103 @@
+$pc: 1440px;
+$notebook: 900px;
+$tablet: 720px;
+$mobile: 420px;
+$mobile-mini: 320px;
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+main {
+    position: relative;
+    top: 99px;
+}
+    
+@media (max-width: $pc){
+    .container {
+        width: 900px;
+    }
+    main {
+        top: 82px;
+    }
+    h3 {
+        font-size: 45px;
+        &::after{
+            width: 8%;
+            left: 8%;
+        }
+        &::before{
+            width: 8%;
+            right: 8%;
+        }
+    }
+    .main_cont {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: $notebook){
+    .container {
+        width: 720px;
+    }
+    h3 {
+        font-size: 38px;
+        &::after{
+            width: 8%;
+            left: 3%;
+        }
+        &::before{
+            width: 8%;
+            right: 3%;
+        }
+    }
+    h4 {
+        font-size: 24px;
+    } 
+    
+}
+
+@media (max-width: $tablet) {
+    .container{
+        width: 420px;
+    }
+    main {
+        top: 84px;
+    }
+    h3 {
+        font-size: 30px;
+        &::after{
+            width: 10%;
+            left: 0%;
+            bottom: 15px;
+        }
+        &::before{
+            width: 10%;
+            right: 0%;
+            bottom: 15px;
+        }
+    }
+    h4 {
+        font-size: 18px;
+    } 
+}
+
+@media (max-width: $mobile) {
+    .container {
+        width: 320px;
+    }
+    h3 {
+        font-size: 24px;
+        &::after{
+            bottom: 12px;
+        }
+        &::before{
+            bottom: 12px;
+        }
+    }
+    h4 {
+        font-size: 12px;
+    } 
+}

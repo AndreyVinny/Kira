@@ -741,13 +741,13 @@ header section {
 }
 @media (max-width: 420px) {
   .nav h1 {
-    font-size: 19px;
+    font-size: 17px;
     text-align: left;
     width: 200px;
   }
 
   .ham_menu {
-    top: 7px;
+    top: 2px;
   }
 }
 .banner {

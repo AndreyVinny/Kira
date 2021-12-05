@@ -20,7 +20,7 @@
 
 .swiper-button-next, 
 .swiper-button-prev  {
-    color: var(--color_bg);
+    color: var(--color_text_spec);
 }
 
 .banner_text {
@@ -29,7 +29,7 @@
     bottom: 10%;
     z-index: 10;
     width: 100%;
-    color: var(--color-text);
+    color: var(--color_text);
     h2 {
         font-size: 55px;
         letter-spacing: 3px;

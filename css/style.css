@@ -1000,7 +1000,7 @@ table td span {
 }
 table td:last-child {
   text-align: right;
-  width: 65px;
+  min-width: 95px;
 }
 
 @media (max-width: 1440px) {
@@ -1417,6 +1417,39 @@ table td:last-child {
     font-size: 22px;
   }
 }
+.swiper-reviews {
+  height: 350px;
+}
+
+.reviews_box {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.645);
+  padding: 25px 40px;
+  height: 300px;
+}
+
+.reviews_box_img img {
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.reviews_box_name {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.reviews_box_cont {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.swiper-pagination-reviews .swiper-pagination-bullet-active {
+  background: var(--color_text_spec);
+}
+
 footer {
   padding: 100px 0px;
 }

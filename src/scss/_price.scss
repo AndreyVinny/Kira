@@ -38,7 +38,7 @@ table {
         }
         &:last-child {
             text-align: right;
-            width: 65px;
+            min-width: 95px;
         }
     }
 }

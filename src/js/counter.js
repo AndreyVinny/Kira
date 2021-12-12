@@ -10,7 +10,7 @@ countres.forEach(counter => {
 
         if(count < target){
             counter.innerText = Math.ceil(count + inc);
-            setTimeout(updateCount, 80)
+            setTimeout(updateCount, 10)
         } else {
             counter.innerText = target;
         }

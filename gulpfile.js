@@ -76,7 +76,11 @@ function js () {
 
 function images () {
     return src(path.src.img)
-        .pipe(image())
+        .pipe(image(
+            {
+                jpegRecompress: ['--strip', '--quality', 'medium', '--min', 25, '--max', 50],
+            }
+        ))
         .pipe(dest(path.build.img))
         .pipe(browsersync.stream())
 };

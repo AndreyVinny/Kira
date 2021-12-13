@@ -38,7 +38,7 @@ table {
         }
         &:last-child {
             text-align: right;
-            min-width: 95px;
+            min-width: 110px;
         }
     }
 }
@@ -73,6 +73,11 @@ table {
             span {
                 font-size: 10px;
                 color: var(--color_text_spec);
+            }
+            &:last-child {
+                font-size: 11px;
+                min-width: 75px;
+
             }
         }
     }

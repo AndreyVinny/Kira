@@ -8,6 +8,7 @@
 .swiper-banner {
     max-height: 650px;
     img {
+        width: 100%;
         object-fit: cover;
         max-height: 650px;
     }
@@ -85,7 +86,6 @@
         }
     }
 }
-
 
 @media (max-width: $mobile) { 
     .banner {

@@ -1,6 +1,7 @@
 :root {
     --color_bg: #fef2ed;
     --color_bg_second: #ffffff;
+    --color_bg_third: #f0f0f0;;
     --color_text: #000;
     --color_text_spec: rgb(201, 114, 122);
 }
@@ -72,6 +73,3 @@ section {
     align-items: $ai;
     flex-wrap: $fw;
 }
-
-// font-family: 'Comfortaa', cursive;
-// font-family: 'Playfair Display', serif;

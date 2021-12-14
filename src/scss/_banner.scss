@@ -10,7 +10,7 @@
     img {
         width: 100%;
         object-fit: cover;
-        max-height: 650px;
+        height: 650px;
     }
 }
 
@@ -36,6 +36,7 @@
         font-size: 55px;
         letter-spacing: 3px;
         margin-bottom: 25px;
+        font-weight: 400;
         span {
             font-family: 'Comfortaa';
         }
@@ -57,16 +58,28 @@
             font-size: 22px;
         }
     }
+
+    .swiper-banner {
+        img {
+            height: 550px;
+        }
+    }
 }
 
 @media (max-width: $notebook) { 
     .banner_text {
         h2 {
-            font-size: 33px;
+            font-size: 45px;
+            width: 100px;
         }
         p {
-            width: 76%;
-            font-size: 15px;
+            width: 90%;
+            font-size: 22px;
+        }
+    }
+    .swiper-banner {
+        img {
+            height: 500px;
         }
     }
 }
@@ -74,27 +87,34 @@
 @media (max-width: $tablet) { 
     .banner_text {
         h1 {
-            font-size: 30px;
-            width: 90%;
+            font-size: 35px;
+            width: 340px;
         }
         p {
-            width: 85%;
-            font-size: 15px;
+            width: 90%;
+            font-size: 22px;
         }
     }
 }
 
 @media (max-width: $mobile) { 
+    .banner {
+        top: 75px;
+    }
     .banner_text {
         h1 {
             font-size: 28px;
             margin-bottom: 10px;
-            width: 100%;
+            width: 280px;
         }
         p {
-            letter-spacing: 0px;
-            width: 90%;
-            font-size: 14px;
+            font-size: 19px;
+        }
+    }
+
+    .swiper-banner {
+        img {
+            height: 350px;
         }
     }
 }

@@ -776,7 +776,7 @@ header section {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  max-height: 650px;
+  height: 650px;
 }
 
 .swiper-pagination-banner .swiper-pagination-bullet-active {
@@ -800,6 +800,7 @@ header section {
   font-size: 55px;
   letter-spacing: 3px;
   margin-bottom: 25px;
+  font-weight: 400;
 }
 .banner_text h1 span {
   font-family: "Comfortaa";
@@ -818,36 +819,51 @@ header section {
     width: 76%;
     font-size: 22px;
   }
+
+  .swiper-banner img {
+    height: 550px;
+  }
 }
 @media (max-width: 900px) {
   .banner_text h2 {
-    font-size: 33px;
+    font-size: 45px;
+    width: 100px;
   }
   .banner_text p {
-    width: 76%;
-    font-size: 15px;
+    width: 90%;
+    font-size: 22px;
+  }
+
+  .swiper-banner img {
+    height: 500px;
   }
 }
 @media (max-width: 720px) {
   .banner_text h1 {
-    font-size: 30px;
-    width: 90%;
+    font-size: 35px;
+    width: 340px;
   }
   .banner_text p {
-    width: 85%;
-    font-size: 15px;
+    width: 90%;
+    font-size: 22px;
   }
 }
 @media (max-width: 420px) {
+  .banner {
+    top: 75px;
+  }
+
   .banner_text h1 {
     font-size: 28px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 280px;
   }
   .banner_text p {
-    letter-spacing: 0px;
-    width: 90%;
-    font-size: 14px;
+    font-size: 19px;
+  }
+
+  .swiper-banner img {
+    height: 350px;
   }
 }
 .about_cont {

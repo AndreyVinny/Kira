@@ -1,8 +1,4 @@
 const swiper = new Swiper('.swiper-banner', {
-    navigation: {
-      nextEl: '.swiper-button-next-banner',
-      prevEl: '.swiper-button-prev-banner',
-    },
     pagination: {
       el: '.swiper-pagination-banner',
       clickable: true,
@@ -28,9 +24,6 @@ const swiper_gallery = new Swiper('.swiper-gallery', {
     keyboard: {
         enabled: true,
         onlyInViewport: true,
-    },
-    mousewheel: {
-        sensitivity: 1,
     },
     autoplay: {
       delay: 5000,

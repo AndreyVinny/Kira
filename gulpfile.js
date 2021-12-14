@@ -12,13 +12,13 @@ let path = {
         html: [source_folder + '/html/index.html', "!" + source_folder + '/_*.html'],
         css: source_folder + '/scss/style.scss',
         js: source_folder + '/js/script.js',
-        img: source_folder + '/img/**/*.{jpg,png,svg,gif,ico,wepb}',
+        img: source_folder + '/img/**/*.{jpg,jpeg,png,svg,gif,ico,wepb}',
     },
     watch: {
         html: source_folder + '/**/*.html',
         css: source_folder + '/scss/**/*.scss',
         js: source_folder + '/js/**/*.js',
-        img: source_folder + '/img/**/*.{jpg,png,svg,gif,ico,wepb}',
+        img: source_folder + '/img/**/*.{jpg,jpeg,png,svg,gif,ico,wepb}',
     },
     clean: './' + project_folder + '/'
 };

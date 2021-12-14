@@ -410,7 +410,7 @@ h4 {
 
 section {
   text-align: center;
-  padding: 100px 0px 10px 0px;
+  padding: 80px 0px 0px 0px;
 }
 
 .main_cont {
@@ -500,6 +500,10 @@ main {
   h4 {
     font-size: 18px;
   }
+
+  section {
+    padding: 50px 0px 0px 0px;
+  }
 }
 @media (max-width: 420px) {
   .container {
@@ -519,6 +523,10 @@ main {
   h4 {
     font-size: 12px;
   }
+
+  section {
+    padding: 30px 0px 0px 0px;
+  }
 }
 header section {
   text-align: left;
@@ -530,7 +538,7 @@ header section {
   left: 0;
   width: 100%;
   background-color: var(--color_bg);
-  padding: 10px 0px;
+  padding: 20px 0px;
   z-index: 10001;
   -webkit-box-shadow: 0px 13px 9px -5px rgba(34, 60, 80, 0.2);
           box-shadow: 0px 13px 9px -5px rgba(34, 60, 80, 0.2);
@@ -552,7 +560,16 @@ header section {
           align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  font-family: "Comfortaa", cursive;
+  font-family: "Comfortaa";
+}
+.nav h2 a {
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--color_text);
+}
+.nav h2 a:hover {
+  color: var(--color_text_spec);
 }
 
 .nav_menu {
@@ -619,11 +636,6 @@ header section {
 }
 
 @media (max-width: 1440px) {
-  .nav h1 {
-    font-size: 25px;
-    text-align: center;
-  }
-
   .nav_menu a {
     padding: 5px 7px;
     font-size: 15px;
@@ -631,7 +643,7 @@ header section {
 }
 @media (max-width: 900px) {
   .navigation {
-    padding: 15px 0px;
+    padding: 25px 0px;
   }
 
   .nav {
@@ -701,11 +713,11 @@ header section {
   .nav_menu .nav_item {
     margin: 0 auto;
     background: none;
-    margin-bottom: 20px;
+    margin: 12px auto;
   }
 
   .nav_menu_1.active {
-    top: 84px;
+    top: 77px;
   }
 
   .nav_menu_2.active {
@@ -744,8 +756,6 @@ header section {
   .nav h1 {
     font-size: 17px;
     text-align: left;
-    width: 200px;
-    letter-spacing: 1.9px;
   }
 
   .ham_menu {
@@ -754,7 +764,7 @@ header section {
 }
 .banner {
   position: relative;
-  top: 99px;
+  top: 75px;
   width: 100%;
   padding: 0px;
 }
@@ -786,10 +796,13 @@ header section {
   width: 100%;
   color: var(--color_text);
 }
-.banner_text h2 {
+.banner_text h1 {
   font-size: 55px;
   letter-spacing: 3px;
   margin-bottom: 25px;
+}
+.banner_text h1 span {
+  font-family: "Comfortaa";
 }
 .banner_text p {
   width: 65%;
@@ -798,11 +811,7 @@ header section {
 }
 
 @media (max-width: 1440px) {
-  .banner {
-    top: 82px;
-  }
-
-  .banner_text h2 {
+  .banner_text h1 {
     font-size: 50px;
   }
   .banner_text p {
@@ -811,10 +820,6 @@ header section {
   }
 }
 @media (max-width: 900px) {
-  .banner {
-    top: 84px;
-  }
-
   .banner_text h2 {
     font-size: 33px;
   }
@@ -824,26 +829,25 @@ header section {
   }
 }
 @media (max-width: 720px) {
-  .banner_text h2 {
-    font-size: 24px;
+  .banner_text h1 {
+    font-size: 30px;
+    width: 90%;
   }
   .banner_text p {
-    width: 80%;
-    font-size: 12px;
+    width: 85%;
+    font-size: 15px;
   }
 }
 @media (max-width: 420px) {
-  .banner {
-    top: 98px;
-  }
-
-  .banner_text h2 {
-    font-size: 18px;
+  .banner_text h1 {
+    font-size: 28px;
     margin-bottom: 10px;
+    width: 100%;
   }
   .banner_text p {
-    width: 80%;
-    font-size: 10px;
+    letter-spacing: 0px;
+    width: 90%;
+    font-size: 14px;
   }
 }
 .about_cont {

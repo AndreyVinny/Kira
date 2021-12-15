@@ -11,6 +11,7 @@
   "devDependencies": {
     "browser-sync": "^2.27.5",
     "del": "^6.0.0",
+    "fontfacegen": "^0.4.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-file-include": "^2.3.0",
@@ -18,7 +19,9 @@
     "gulp-image": "^6.2.1",
     "gulp-imagemin": "^8.0.0",
     "gulp-sass": "^5.0.0",
-    "sass": "^1.42.1"
+    "sass": "^1.42.1",
+    "ttf2woff": "^3.0.0",
+    "ttf2woff2": "^4.0.4"
   },
   "dependencies": {
     "imagemin-jpeg-recompress": "^7.0.0"

@@ -341,6 +341,18 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "Comfortaa";
+  src: url(../fonts/Comfortaa-Regular.woff) format("woff");
+  font-weight: 400;
+  font-size: normal;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(../fonts/PlayfairDisplay-Regular.woff) format("woff");
+  font-weight: 400;
+  font-size: normal;
+}
 :root {
   --color_bg: #fef2ed;
   --color_bg_second: #ffffff;
@@ -511,7 +523,7 @@ main {
   }
 
   h3 {
-    font-size: 24px;
+    font-size: 26px;
   }
   h3::after {
     bottom: 12px;
@@ -521,7 +533,7 @@ main {
   }
 
   h4 {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   section {
@@ -1068,7 +1080,7 @@ table td:last-child {
     color: var(--color_text_spec);
   }
   table td:last-child {
-    font-size: 11px;
+    font-size: 12px;
     min-width: 75px;
   }
 }

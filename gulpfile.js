@@ -30,8 +30,8 @@ let { src, dest } = require('gulp'),
               del = require('del'),
              scss = require('gulp-sass')(require('sass')),
      autoprefixer = require('gulp-autoprefixer'),
-            image = require('gulp-image'),        
-            ghPages = require('gulp-gh-pages');
+            image = require('gulp-image'),         
+         ghPages = require('gulp-gh-pages');
 
 function browserSync () {
     browsersync.init({
@@ -99,7 +99,6 @@ let build = gulp.series(clean, gulp.parallel(js, css, html, images));
 let watch = gulp.parallel(build, watchFiles, browserSync);
 
 exports.images = images;
-exports.js = js;
 exports.css = css;
 exports.html = html;
 exports.build = build;

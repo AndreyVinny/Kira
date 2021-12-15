@@ -346,12 +346,14 @@ template {
   src: url(../fonts/Comfortaa-Regular.woff) format("woff");
   font-weight: 400;
   font-size: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Playfair Display";
   src: url(../fonts/PlayfairDisplay-Regular.woff) format("woff");
   font-weight: 400;
   font-size: normal;
+  font-display: swap;
 }
 :root {
   --color_bg: #fef2ed;
